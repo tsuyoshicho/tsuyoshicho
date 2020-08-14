@@ -1,39 +1,20 @@
-== my-pixela-record
-
-Public My https://pixe.la/[Pixe.la] chart view-only repository
+== Stats
 
 :username: tsuyoshicho
 :graphurl: https://pixe.la/v1/users/{username}/graphs
 
-=== Usage
-
-. Fork this repository.
-. Edit README.adoc username variable.
-
-=== Special : Github
-from https://github.com/anuraghazra/github-readme-stats/[anuraghazra/github-readme-stats: Dynamically generated stats for your github readmes]
-
-URL : https://github-readme-stats.vercel.app/api?username={username}&count_private=true&show_icons=true&show_icons=true&theme=tokyonight
+=== https://github.com/[Github]
 image:https://github-readme-stats.vercel.app/api?username={username}&count_private=true&show_icons=true&show_icons=true&theme=tokyonight[image]
-
-from https://grass-graph.moshimo.works/[Grass-Graph / Imaging your GitHub Contributions Graph]
-
-URL : https://grass-graph.moshimo.works/images/{username}.png
 image:https://grass-graph.moshimo.works/images/{username}.png[image]
-
-Stored link:archive/README.md[archive]
 
 === https://www.vim.org/[Vim]
 
-URL : {graphurl}/vim-pixela
 image:{graphurl}/vim-pixela[image]
 
 === https://twitter.com/[Twitter]
 
-URL : {graphurl}/twitter
 image:{graphurl}/twitter[image]
 
 === Mastodon / https://mstdn.jp/[mstdn.jp]
 
-URL : {graphurl}/mastodon-mstdnjp
 image:{graphurl}/mastodon-mstdnjp[image]
