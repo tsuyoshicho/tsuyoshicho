@@ -5,18 +5,18 @@
 :theme: tokyonight
 
 === https://github.com/[Github]
-image:https://github-readme-stats.vercel.app/api?username={username}&count_private=true&show_icons=true&theme={theme}[image] image:https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=tokyonight[image]
+image::https://github-readme-stats.vercel.app/api?username={username}&count_private=true&show_icons=true&theme={theme}[GitHub Stats Card] image::https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=tokyonight[Top Languages Card]
 
-image:https://grass-graph.moshimo.works/images/{username}.png[image]
+image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
 === https://www.vim.org/[Vim]
 
-image:{graphurl}/vim-pixela[image]
+image::{graphurl}/vim-pixela[Vim activate Graph]
 
 === https://twitter.com/[Twitter]
 
-image:{graphurl}/twitter[image]
+image::{graphurl}/twitter[Tweet Graph]
 
 === Mastodon / https://mstdn.jp/[mstdn.jp]
 
-image:{graphurl}/mastodon-mstdnjp[image]
+image::{graphurl}/mastodon-mstdnjp[Toot Graph]
