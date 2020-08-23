@@ -8,11 +8,8 @@
 
 :github_readme_endpoint: https://github-readme-stats.vercel.app/api
 
-[.float-group]
---
-image::{github_readme_endpoint}/top-langs/?username={username}&theme={theme}[Top Languages Card, role="left"]
-image::{github_readme_endpoint}?username={username}&theme={theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, role="left"]
---
+image:{github_readme_endpoint}/top-langs/?username={username}&theme={theme}[Top Languages Card, role="left"]
+image:{github_readme_endpoint}?username={username}&theme={theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, role="left"]
 
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
