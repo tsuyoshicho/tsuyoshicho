@@ -1,0 +1,33 @@
+name: 'update feed'
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: '36 20 * * Sat'
+
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Update feed / Qiita
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          url: 'https://qiita.com/tsuyoshi_cho/feed'
+          file: 'README.adoc'
+          format: '* ${monthshort} ${02day}: ${url}[${title}]'
+          start_flag: '// qiita start'
+          end_flag: '// qiita end'
+      - name: Get current time
+        uses: 1466587594/get-current-time@v2
+        id: current-time
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: '${{ github.actor }}'
+          author_email: '${{ github.actor }}@users.noreply.github.com'
+          message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
+          add: 'README.adoc'
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

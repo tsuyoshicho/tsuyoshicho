@@ -23,6 +23,9 @@ image:{qiita_badge_endpoint}/posts.svg[My Qiita posts, link="{qiita_url}"]
 image:{qiita_badge_endpoint}/contributions.svg[My Qiita contributions, link="{qiita_url}/contributions"]
 image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}/followers"]
 
+// qiita start
+// qiita end
+
 === https://www.vim.org/[Vim]
 
 image::{graphurl}/vim-pixela[Vim activate Graph]
