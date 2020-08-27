@@ -29,5 +29,5 @@ jobs:
           author_email: '${{ github.actor }}@users.noreply.github.com'
           message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
           add: 'README.adoc'
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
