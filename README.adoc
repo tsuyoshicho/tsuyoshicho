@@ -24,6 +24,11 @@ image:{qiita_badge_endpoint}/contributions.svg[My Qiita contributions, link="{qi
 image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}/followers"]
 
 // qiita start
+* Nov 19: https://qiita.com/tsuyoshi_cho/items/756818c2e430a6635010[Vimプラグイン開発でCI]
+* Nov 03: https://qiita.com/tsuyoshi_cho/items/bdade529e8ebc2a05b6a[vim-jpの活動とプラグインとヘルプファイル]
+* Aug 28: https://qiita.com/tsuyoshi_cho/items/01b772da7fda2f1c3ce7[git のマージコンフリクト時の BASE,LOCAL,REMOTE]
+* Apr 10: https://qiita.com/tsuyoshi_cho/items/9af7a81cc51af17a611f[Travis OrgからComへの変更]
+* Mar 30: https://qiita.com/tsuyoshi_cho/items/d9f077c2c1b075f2b99e[gitのやりなおし、特殊ケース]
 // qiita end
 
 === https://www.vim.org/[Vim]
