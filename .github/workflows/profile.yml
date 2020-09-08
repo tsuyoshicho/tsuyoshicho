@@ -1,4 +1,4 @@
-name: 'update feed'
+name: 'update profile'
 on:
   workflow_dispatch:
   push:
@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Update summary
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
       - name: Update feed / Qiita
         uses: sarisia/actions-readme-feed@v1
         with:
