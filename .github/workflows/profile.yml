@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Checkout fix
+        run: |
+          git pull
       - name: Update feed / Qiita
         uses: sarisia/actions-readme-feed@v1
         with:
@@ -38,6 +44,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+      - name: Checkout fix
+        run: |
+          git pull
       - name: Update summary
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
