@@ -7,9 +7,20 @@
 === https://github.com/[Github]
 
 :github_readme_endpoint: https://github-readme-stats.vercel.app/api
+:profile_summary_card_url: https://raw.githubusercontent.com/{username}/{username}/master/profile-summary-card-output
+:profile_summary_card_theme: solarized_dark
+:profile_summary_card_endpoint: {profile_summary_card_url}/{profile_summary_card_theme}
 
-image:{github_readme_endpoint}/top-langs/?username={username}&theme={theme}[Top Languages Card, role="left"]
-image:{github_readme_endpoint}?username={username}&theme={theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, role="left"]
+image::https://komarev.com/ghpvc/?username={username}&color=green[View count, role="left"]
+
+// anuraghazra/github-readme-stats
+// image:{github_readme_endpoint}/top-langs/?username={username}&theme={theme}[Top Languages Card, role="left"]
+// image:{github_readme_endpoint}?username={username}&theme={theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, role="left"]
+
+// vn7n24fzkq/github-profile-summary-cards
+image::{profile_summary_card_endpoint}/0-profile-details.svg[Profile Detail, role="left"]
+image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Language, role="left"]
+image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, role="left"]
 
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
