@@ -6,7 +6,7 @@ on:
     - cron: '36 20 * * Sat'
 
 jobs:
-  feed:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
