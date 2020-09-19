@@ -5,12 +5,14 @@
 
 === https://github.com/[Github]
 
-:trophy_theme: dracula
+:theme: dracula
 
-:github_readme_stats_theme: dracula
+:trophy_theme: {theme}
+
+:github_readme_stats_theme: {theme}
 :github_readme_endpoint: https://github-readme-stats.vercel.app/api
 
-:profile_summary_card_theme: dracula
+:profile_summary_card_theme: {theme}
 :profile_summary_card_url: https://raw.githubusercontent.com/{username}/{username}/master/profile-summary-card-output
 :profile_summary_card_endpoint: {profile_summary_card_url}/{profile_summary_card_theme}
 
@@ -26,7 +28,7 @@ image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Languag
 image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, float="left", align="center"]
 
 // ryo-ma/github-profile-trophy
-image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}[Trophy, float="left", align="center"]
+image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}&column=7[Trophy, float="left", align="center"]
 
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
