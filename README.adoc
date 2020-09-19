@@ -5,28 +5,30 @@
 
 === https://github.com/[Github]
 
-:trophy_theme: dracula
+:theme: dracula
 
-:github_readme_stats_theme: dracula
+:trophy_theme: {theme}
+
+:github_readme_stats_theme: {theme}
 :github_readme_endpoint: https://github-readme-stats.vercel.app/api
 
-:profile_summary_card_theme: dracula
+:profile_summary_card_theme: {theme}
 :profile_summary_card_url: https://raw.githubusercontent.com/{username}/{username}/master/profile-summary-card-output
 :profile_summary_card_endpoint: {profile_summary_card_url}/{profile_summary_card_theme}
 
-image::https://komarev.com/ghpvc/?username={username}&color=green[View count, role="left"]
-
-// ryo-ma/github-profile-trophy
-image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}[Trophy, role="left"]
+image::https://komarev.com/ghpvc/?username={username}&color=green[View count, float="left", align="center"]
 
 // anuraghazra/github-readme-stats
-// image:{github_readme_endpoint}/top-langs/?username={username}&theme={github_readme_stats_theme}[Top Languages Card, role="left"]
-// image:{github_readme_endpoint}?username={username}&theme={github_readme_stats_theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, role="left"]
+// image:{github_readme_endpoint}/top-langs/?username={username}&theme={github_readme_stats_theme}[Top Languages Card, float="left", align="center"]
+// image:{github_readme_endpoint}?username={username}&theme={github_readme_stats_theme}&count_private=true&show_icons=true&line_height=40[GitHub Stats Card, float="left", align="center"]
 
 // vn7n24fzkq/github-profile-summary-cards
-image::{profile_summary_card_endpoint}/0-profile-details.svg[Profile Detail, role="left"]
-image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Language, role="left"]
-image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, role="left"]
+image::{profile_summary_card_endpoint}/0-profile-details.svg[Profile Detail, float="left", align="center"]
+image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Language, float="left", align="center"]
+image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, float="left", align="center"]
+
+// ryo-ma/github-profile-trophy
+image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}&column=7[Trophy, float="left", align="center"]
 
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
