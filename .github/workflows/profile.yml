@@ -27,6 +27,14 @@ jobs:
           format: '* ${monthshort} ${02day}: ${url}[${title}]'
           start_flag: '// qiita start'
           end_flag: '// qiita end'
+      - name: Update feed / Zenn
+        uses: sarisia/actions-readme-feed@v1
+        with:
+          url: 'https://zenn.dev/tsuyoshicho/feed'
+          file: 'README.adoc'
+          format: '* ${monthshort} ${02day}: ${url}[${title}]'
+          start_flag: '// zenn start'
+          end_flag: '// zenn end'
       - name: Get current time
         uses: 1466587594/get-current-time@v2
         id: current-time
