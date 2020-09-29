@@ -26,6 +26,7 @@ image::https://komarev.com/ghpvc/?username={username}&color=green[View count, fl
 image::{profile_summary_card_endpoint}/0-profile-details.svg[Profile Detail, float="left", align="center"]
 image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Language, float="left", align="center"]
 image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, float="left", align="center"]
+image:{profile_summary_card_endpoint}/3-stats.svg[Stats, float="left", align="center"]
 
 // ryo-ma/github-profile-trophy
 image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}&column=7[Trophy, float="left", align="center"]
@@ -49,6 +50,11 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 * Aug 28: https://qiita.com/tsuyoshi_cho/items/01b772da7fda2f1c3ce7[git のマージコンフリクト時の BASE,LOCAL,REMOTE]
 * Apr 10: https://qiita.com/tsuyoshi_cho/items/9af7a81cc51af17a611f[Travis OrgからComへの変更]
 // qiita end
+
+=== https://zenn.dev/[Zenn]
+
+// zenn start
+// zenn end
 
 === https://www.vim.org/[Vim]
 
