@@ -33,6 +33,8 @@ image::https://github-profile-trophy.vercel.app/?username={username}&theme={trop
 
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
+GitHub registerd public keys : https://github.com/tsuyoshicho.keys[ssh] / https://github.com/tsuyoshicho.gpg[pgp]
+
 === http://qiita.com/[Qiita]
 
 :qiita_username: tsuyoshi_cho
