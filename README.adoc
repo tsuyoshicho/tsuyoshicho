@@ -56,6 +56,7 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 === https://zenn.dev/[Zenn]
 
 // zenn start
+* Oct 31: https://zenn.dev/tsuyoshicho/articles/2020-10-27-textlint-ci-upgrade[GitHub Actions textlint ツールでの reviewdog キャッチアップ : 修正サジェスト]
 * Oct 11: https://zenn.dev/tsuyoshicho/articles/2020-10-11-vim-pass[Vim で auth-source ライクなパスワード秘匿プラグインを作った]
 * Sep 19: https://zenn.dev/tsuyoshicho/articles/2020-09-19-zenn-contents-manage[Zennでのコンテンツ管理でのトラブル事例]
 * Sep 19: https://zenn.dev/tsuyoshicho/articles/2020-09-17-asdf-vim-plugin[asdf プラグインの作成 : Vimの場合]
