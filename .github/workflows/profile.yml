@@ -41,8 +41,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          author_name: '${{ github.actor }}'
-          author_email: '${{ github.actor }}@users.noreply.github.com'
+          default_author: github_actions
           message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
           add: 'README.adoc'
         env:
