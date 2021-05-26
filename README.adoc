@@ -56,7 +56,7 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 === https://zenn.dev/[Zenn]
 
 :zenn_username: tsuyoshicho
-:zenn_badge_endpoint: https://zenn-badge.ganariya.vercel.app/{zenn_username}
+:zenn_badge_endpoint: https://zenn-badge.ganariya.vercel.app/s/{zenn_username}
 :zenn_url: https://zenn.dev/{zenn_username}
 
 image:{zenn_badge_endpoint}/articles[My Zenn articles, link="{zenn_url}"]
