@@ -60,7 +60,7 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 :zenn_url: https://zenn.dev/{zenn_username}
 
 image:{zenn_badge_endpoint}/articles[My Zenn articles, link="{zenn_url}"]
-image:{zenn_badge_endpoint}/liked[My Zenn linked, link="{zenn_url}"]
+image:{zenn_badge_endpoint}/likes[My Zenn linkes, link="{zenn_url}"]
 image:{zenn_badge_endpoint}/followers[My Zenn followers, link="{zenn_url}"]
 
 // zenn start
