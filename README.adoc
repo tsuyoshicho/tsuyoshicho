@@ -1,16 +1,16 @@
 :username: tsuyoshicho
 
+= https://github.com/[Github]
+
 == Metrics
 
 image::https://raw.githubusercontent.com/{username}/{username}/master/github-metrics.svg[Metrics, float="left", align="center"]
 
 == Summary
 [%collapsible]
-====
+=====
 
 :graphurl: https://pixe.la/v1/users/{username}/graphs
-
-=== https://github.com/[Github]
 
 :theme: dracula
 
@@ -41,9 +41,11 @@ image::https://github-profile-trophy.vercel.app/?username={username}&theme={trop
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
 GitHub registerd public keys : https://github.com/tsuyoshicho.keys[ssh] / https://github.com/tsuyoshicho.gpg[pgp]
-====
+=====
 
-=== http://qiita.com/[Qiita]
+= Other sites
+
+== http://qiita.com/[Qiita]
 
 :qiita_username: tsuyoshi_cho
 :qiita_badge_endpoint: https://qiita-badge.apiapi.app/s/{qiita_username}
@@ -61,7 +63,7 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 * Apr 10: https://qiita.com/tsuyoshi_cho/items/9af7a81cc51af17a611f[Travis OrgからComへの変更]
 // qiita end
 
-=== https://zenn.dev/[Zenn]
+== https://zenn.dev/[Zenn]
 
 :zenn_username: tsuyoshicho
 :zenn_badge_endpoint: https://zenn.badge.nikaera.com/s/{zenn_username}
@@ -79,14 +81,16 @@ image:{zenn_badge_endpoint}/followers[My Zenn followers, link="{zenn_url}"]
 * Sep 19: https://zenn.dev/tsuyoshicho/articles/2020-09-19-zenn-contents-manage[Zennでのコンテンツ管理でのトラブル事例]
 // zenn end
 
-=== https://www.vim.org/[Vim]
+= Statistics
+
+== https://www.vim.org/[Vim]
 
 image::{graphurl}/vim-pixela[Vim activate Graph]
 
-=== https://twitter.com/[Twitter]
+== https://twitter.com/[Twitter]
 
 image::{graphurl}/twitter[Tweet Graph]
 
-=== Mastodon / https://mstdn.jp/[mstdn.jp]
+== Mastodon / https://mstdn.jp/[mstdn.jp]
 
 image::{graphurl}/mastodon-mstdnjp[Toot Graph]
