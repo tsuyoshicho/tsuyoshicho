@@ -1,6 +1,13 @@
-== Stats
-
 :username: tsuyoshicho
+
+== Metrics
+
+image::https://raw.githubusercontent.com/{username}/{username}/master/github-metrics.svg[Metrics, float="left", align="center"]
+
+== Summary
+[%collapsible]
+====
+
 :graphurl: https://pixe.la/v1/users/{username}/graphs
 
 === https://github.com/[Github]
@@ -34,6 +41,7 @@ image::https://github-profile-trophy.vercel.app/?username={username}&theme={trop
 image::https://grass-graph.moshimo.works/images/{username}.png[GitHub Commit Graph]
 
 GitHub registerd public keys : https://github.com/tsuyoshicho.keys[ssh] / https://github.com/tsuyoshicho.gpg[pgp]
+====
 
 === http://qiita.com/[Qiita]
 
