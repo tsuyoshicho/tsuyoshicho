@@ -34,6 +34,7 @@ image::{profile_summary_card_endpoint}/0-profile-details.svg[Profile Detail, flo
 image:{profile_summary_card_endpoint}/1-repos-per-language.svg[Repos per Language, float="left", align="center"]
 image:{profile_summary_card_endpoint}/2-most-commit-language.svg[Most commit Languages, float="left", align="center"]
 image:{profile_summary_card_endpoint}/3-stats.svg[Stats, float="left", align="center"]
+image:{profile_summary_card_endpoint}/4-productive-time.svg[Productive time, float="left", align="center"]
 
 // ryo-ma/github-profile-trophy
 image::https://github-profile-trophy.vercel.app/?username={username}&theme={trophy_theme}&column=7[Trophy, float="left", align="center"]
