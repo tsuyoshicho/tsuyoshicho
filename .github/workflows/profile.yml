@@ -45,7 +45,7 @@ jobs:
           message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
           add: 'README.adoc'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
 
   summary:
     needs: feed
@@ -62,6 +62,6 @@ jobs:
       - name: Update summary
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
