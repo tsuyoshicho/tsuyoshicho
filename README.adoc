@@ -58,8 +58,8 @@ image:{qiita_badge_endpoint}/followers.svg[My Qiita followers, link="{qiita_url}
 
 // qiita start
 * Sep 11: https://qiita.com/tsuyoshi_cho/items/495f081117253f0b23bb[asdf プラグインの作成 : Vimの場合]
-* Nov 19: https://qiita.com/tsuyoshi_cho/items/756818c2e430a6635010[Vimプラグイン開発でCI]
-* Nov 03: https://qiita.com/tsuyoshi_cho/items/bdade529e8ebc2a05b6a[vim-jpの活動とプラグインとヘルプファイル]
+* Dec 23: https://qiita.com/tsuyoshi_cho/items/bdade529e8ebc2a05b6a[vim-jpの活動とプラグインとヘルプファイル]
+* Dec 17: https://qiita.com/tsuyoshi_cho/items/756818c2e430a6635010[Vimプラグイン開発でCI]
 * Aug 28: https://qiita.com/tsuyoshi_cho/items/01b772da7fda2f1c3ce7[git のマージコンフリクト時の BASE,LOCAL,REMOTE]
 // qiita end
 
