@@ -94,3 +94,7 @@ image::{graphurl}/twitter[Tweet Graph]
 == Mastodon / https://mstdn.jp/[mstdn.jp]
 
 image::{graphurl}/mastodon-mstdnjp[Toot Graph]
+
+== Mastodon / https://fedibird.com/[Fedibird]
+
+image::{graphurl}/mastodon-fedibrd[Toot Graph]
