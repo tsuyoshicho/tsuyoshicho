@@ -36,7 +36,7 @@ jobs:
           start_flag: '// zenn start'
           end_flag: '// zenn end'
       - name: Get current time
-        uses: 1466587594/get-current-time@v2
+        uses: josStorer/get-current-time@v2.0.2
         id: current-time
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
