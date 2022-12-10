@@ -74,11 +74,11 @@ image:{zenn_badge_endpoint}/likes[My Zenn linkes, link="{zenn_url}"]
 image:{zenn_badge_endpoint}/followers[My Zenn followers, link="{zenn_url}"]
 
 // zenn start
+* Dec 08: https://zenn.dev/vim_jp/articles/2022-12-08-vim-advent2-article[Vim Advent記念 Vim Plugin作成RTA]
 * Aug 06: https://zenn.dev/tsuyoshicho/articles/2022-08-06-google-fit-sync[Google Fitと連携するサービスを利用してみる : 事例 FitnessSyncer]
 * Apr 20: https://zenn.dev/tsuyoshicho/articles/2021-04-20-action-textv3[GitHub Actions aciton-textlint v3 が出てています]
 * Dec 17: https://zenn.dev/tsuyoshicho/articles/2020-12-18-vim-advent-article[今年のVim関係とそれ以外も含めた活動での結果とエッセンス]
 * Oct 31: https://zenn.dev/tsuyoshicho/articles/2020-10-27-textlint-ci-upgrade[GitHub Actions textlint ツールでの reviewdog キャッチアップ : 修正サジェスト]
-* Oct 11: https://zenn.dev/tsuyoshicho/articles/2020-10-11-vim-pass[Vim で auth-source ライクなパスワード秘匿プラグインを作った]
 // zenn end
 
 = Statistics
