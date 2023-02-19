@@ -98,10 +98,3 @@ image::{graphurl}/mastodon-mstdnjp[Toot Graph]
 == Mastodon / https://fedibird.com/[Fedibird]
 
 image::{graphurl}/mastodon-fedibrd[Toot Graph]
-
-= Note
-
-== nostr
-
-Public key
-npub1j0q96yq8p5dpwwy59ke3y4g0pu4a4t4m7ngerkahx0jzmk7ykdxq46z5jm
