@@ -20,7 +20,7 @@ jobs:
         run: |
           git pull
       - name: Update feed / Qiita
-        uses: sarisia/actions-readme-feed@871eed3bd90d82f63d8a3a1d186323b819fbfc9e # v1.0.0
+        uses: sarisia/actions-readme-feed@bdde7fdb36e19b030b77cf1f7b7f09db68219f32 # v1.10.1
         with:
           url: 'https://qiita.com/tsuyoshi_cho/feed'
           file: 'README.adoc'
@@ -28,7 +28,7 @@ jobs:
           start_flag: '// qiita start'
           end_flag: '// qiita end'
       - name: Update feed / Zenn
-        uses: sarisia/actions-readme-feed@871eed3bd90d82f63d8a3a1d186323b819fbfc9e # v1.0.0
+        uses: sarisia/actions-readme-feed@bdde7fdb36e19b030b77cf1f7b7f09db68219f32 # v1.10.1
         with:
           url: 'https://zenn.dev/tsuyoshicho/feed'
           file: 'README.adoc'
