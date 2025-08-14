@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           ref: master
           fetch-depth: 0
@@ -20,7 +20,7 @@ jobs:
         run: |
           git pull
       - name: Update feed / Qiita
-        uses: sarisia/actions-readme-feed@v1.0.0
+        uses: sarisia/actions-readme-feed@871eed3bd90d82f63d8a3a1d186323b819fbfc9e # v1.0.0
         with:
           url: 'https://qiita.com/tsuyoshi_cho/feed'
           file: 'README.adoc'
@@ -28,7 +28,7 @@ jobs:
           start_flag: '// qiita start'
           end_flag: '// qiita end'
       - name: Update feed / Zenn
-        uses: sarisia/actions-readme-feed@v1.0.0
+        uses: sarisia/actions-readme-feed@871eed3bd90d82f63d8a3a1d186323b819fbfc9e # v1.0.0
         with:
           url: 'https://zenn.dev/tsuyoshicho/feed'
           file: 'README.adoc'
@@ -39,7 +39,7 @@ jobs:
         uses: josStorer/get-current-time@060cae3fbd32c181c6841788189a601ac8df8389 # v2.1.2
         id: current-time
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9.0.0
+        uses: EndBug/add-and-commit@050a66787244b10a4874a2a5f682130263edc192 # v9.0.0
         with:
           default_author: github_actions
           message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
@@ -52,7 +52,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           ref: master
           fetch-depth: 0
@@ -98,7 +98,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5.0.0
+        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
         with:
           ref: master
           fetch-depth: 0
