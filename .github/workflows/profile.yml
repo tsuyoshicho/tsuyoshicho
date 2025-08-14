@@ -39,7 +39,7 @@ jobs:
         uses: josStorer/get-current-time@060cae3fbd32c181c6841788189a601ac8df8389 # v2.1.2
         id: current-time
       - name: Commit changes
-        uses: EndBug/add-and-commit@050a66787244b10a4874a2a5f682130263edc192 # v9.0.0
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # v9.1.4
         with:
           default_author: github_actions
           message: 'Update profile page / ${{ steps.current-time.outputs.ISOTime }}'
