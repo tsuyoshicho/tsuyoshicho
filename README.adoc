@@ -74,11 +74,11 @@ image:{zenn_badge_endpoint}/likes[My Zenn linkes, link="{zenn_url}"]
 image:{zenn_badge_endpoint}/followers[My Zenn followers, link="{zenn_url}"]
 
 // zenn start
+* Jan 31: https://zenn.dev/tsuyoshicho/articles/2026-01-31-git-alias-with-github-copilot[GitHub Copilotを使う (事例: git のエイリアスの改善)]
 * Sep 14: https://zenn.dev/vim_jp/articles/2025-09-15-vim-git-util[Gitのコミットメッセージ上の種別を簡単に変更する]
 * Dec 08: https://zenn.dev/vim_jp/articles/2022-12-08-vim-advent2-article[Vim Advent記念 Vim Plugin作成RTA]
 * Aug 06: https://zenn.dev/tsuyoshicho/articles/2022-08-06-google-fit-sync[Google Fitと連携するサービスを利用してみる : 事例 FitnessSyncer]
 * Apr 20: https://zenn.dev/tsuyoshicho/articles/2021-04-20-action-textv3[GitHub Actions aciton-textlint v3 が出てています]
-* Dec 17: https://zenn.dev/tsuyoshicho/articles/2020-12-18-vim-advent-article[今年のVim関係とそれ以外も含めた活動での結果とエッセンス]
 // zenn end
 
 = Statistics
