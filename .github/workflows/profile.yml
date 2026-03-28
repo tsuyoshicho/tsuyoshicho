@@ -57,7 +57,7 @@ jobs:
           ref: master
           fetch-depth: 0
       - name: Update metrics
-        uses: lowlighter/metrics@v3.34
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           user: ${{ github.repository_owner }}
           token: ${{ secrets.PROFILE_TOKEN }}
@@ -106,6 +106,6 @@ jobs:
         run: |
           git pull
       - name: Update summary
-        uses: vn7n24fzkq/github-profile-summary-cards@v0.7.0
+        uses: vn7n24fzkq/github-profile-summary-cards@5055b27ac896c627043ead432f9b2fa973aa2c80 # v0.7.0
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN }}
