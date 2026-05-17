@@ -1,10 +1,11 @@
 :username: tsuyoshicho
+:asset_branch: ci/assets
 
 = https://github.com/[Github]
 
 == Metrics
 
-image::https://raw.githubusercontent.com/{username}/{username}/master/github-metrics.svg[Metrics, float="left", align="center"]
+image::https://raw.githubusercontent.com/{username}/{username}/{asset_branch}/github-metrics.svg[Metrics, float="left", align="center"]
 
 == Summary
 [%collapsible]
@@ -20,7 +21,7 @@ image::https://raw.githubusercontent.com/{username}/{username}/master/github-met
 :github_readme_endpoint: https://github-readme-stats.vercel.app/api
 
 :profile_summary_card_theme: {theme}
-:profile_summary_card_url: https://raw.githubusercontent.com/{username}/{username}/master/profile-summary-card-output
+:profile_summary_card_url: https://raw.githubusercontent.com/{username}/{username}/{asset_branch}/profile-summary-card-output
 :profile_summary_card_endpoint: {profile_summary_card_url}/{profile_summary_card_theme}
 
 image::https://komarev.com/ghpvc/?username={username}&color=green[View count, float="left", align="center"]
